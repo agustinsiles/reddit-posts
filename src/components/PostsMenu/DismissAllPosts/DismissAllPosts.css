@@ -1,5 +1,7 @@
 .DismissAllPosts {
+    background: #000000;
     color: orange;
+    cursor: pointer;
     padding: 20px;
     text-align: center;
 } 

@@ -8,7 +8,7 @@ import './PostsMenu.css';
 class PostsMenu extends Component {
     render() {
         return (
-            <div className="PostMenuContainer">
+            <div className="PostsMenuContainer">
                 <h1 className="Title">Reddit Posts</h1>
                 <PostList 
                     posts={this.props.posts} 
