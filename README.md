@@ -1,8 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Reddit posts 
 
-## Available Scripts
+In this repo, you will find a React app with the top 50 posts from Reddit. Basic functionallity such as dismissing posts, dismissing all and mark as read. Also you can see post details. Redux is being used to manage state and store.
 
-In the project directory, you can run:
+Some features like responsive design and animations still need to be added, together with some unit tests.
+
+To run the app, simply:
+1) `git clone https://github.com/agustinsiles/reddit-posts`
+2) `cd reddit-posts`
+3) `npm i`
+4) `npm run start`
 
 ### `npm start`
 
