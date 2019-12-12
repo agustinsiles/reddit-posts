@@ -6,8 +6,8 @@ const PostList = props => (
     <div className="PostList">
         {props.posts.map(post => (
             <Post 
-                key={post.data.id}
-                post={post.data} 
+                key={post.id}
+                post={post} 
                 onReadPost={props.onReadPost}
                 onDismissPost={props.onDismissPost}
             />

@@ -29,6 +29,11 @@
     text-align: center;
 }
 
+.Post .PostThumbnail {
+    margin: 15px 0 0;
+    width: 100px;
+}
+
 .Post .PostDescriptionContainer p {
     overflow-wrap: break-word;
     max-width: 300px;

@@ -6,9 +6,7 @@ import './Post.css';
 const Post = props => {
     const post = props.post;
 
-    const timeFromNow = time => {
-        return moment(time).fromNow();
-    }
+    const timeFromNow = time => moment.unix(time).fromNow();
 
     const dismissPost = evt => {
         evt.stopPropagation();
@@ -24,11 +22,13 @@ const Post = props => {
                 <div className="Author">{post.author} <span className="Time">{timeFromNow(post.created)}</span></div>
             </header>
             <div className="PostDescriptionContainer">
-                <img 
-                    alt={post.title}
-                    src={post.thumbnail}
-                    width="100" 
-                />
+                {post.thumbnail ? 
+                    <img 
+                        className="PostThumbnail"
+                        alt={post.title}
+                        src={post.thumbnail} />
+                    : null
+                }
                 <p>{post.title}</p>
             </div>
             <footer>
