@@ -1,0 +1,18 @@
+.DismissPostContainer {
+    cursor: pointer;
+    float: left;
+}
+
+.DismissPostContainer .DismissBtn {
+    border: 1px solid orange;
+    border-radius: 100px;
+    color: orange;
+    display: inline-block;
+    font-size: 8px;
+    height: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    width: 10px;
+} 

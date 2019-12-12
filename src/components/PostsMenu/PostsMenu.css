@@ -1,0 +1,15 @@
+.PostsMenuContainer {
+    background: #252525;
+    color: #ffffff;
+    width: 300px;
+    position: absolute;
+    overflow: scroll;
+    top: 0px;
+    height: 100%;
+}
+
+.PostsMenuContainer .Title {
+    font-size: 14px;
+    margin: 20px 60px;
+    text-align: center;
+} 

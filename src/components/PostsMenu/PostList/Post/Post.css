@@ -1,0 +1,42 @@
+.Post {
+    border-bottom: 1px solid #afafaf;
+    padding: 10px;
+}
+
+.Post .UnreadPost {
+    background-color: #0055f7;
+    border-radius: 10px;
+    display: inline-block;
+    height: 10px;
+    margin: 0 10px 0 0;
+    width: 10px;
+}
+
+.Post .ReadPost {
+    visibility: hidden;
+}
+
+.Post .Author {
+    display: inline-block;
+}
+
+.Post .Time {
+    color: #b9b9b9;
+    font-size: 13px;
+}
+
+.Post .PostDescriptionContainer {
+    text-align: center;
+}
+
+.Post .PostDescriptionContainer p {
+    overflow-wrap: break-word;
+    max-width: 300px;
+}
+
+.Post footer { overflow: hidden; }
+
+.Post footer .Comments { 
+    color: orange;
+    float: right; 
+} 
