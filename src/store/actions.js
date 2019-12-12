@@ -1,0 +1,5 @@
+export default {
+    DISMISS_ALL: 'DISMISS_ALL',
+    DISMISS_POST: 'DISMISS_POST',
+    READ_POST: 'READ_POST'
+}; 
